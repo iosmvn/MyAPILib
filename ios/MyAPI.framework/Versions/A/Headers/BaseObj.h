@@ -10,4 +10,8 @@
 
 @interface BaseObj : NSObject
 
+    
+- (NSString *)whoisI;
+- (void)setupIV2:(UIView *)view;
+
 @end

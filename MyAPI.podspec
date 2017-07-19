@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "MyAPI"
-  s.version = "0.2.8"
+  s.version = "0.2.9"
   s.summary = "MyAPI for static Libs."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"sundl1988@163.com"=>"sundanlong@gmail.com"}

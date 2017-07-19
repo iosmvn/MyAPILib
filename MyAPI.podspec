@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "MyAPI"
-  s.version = "2.0.1"
+  s.version = "2.0.2"
   s.summary = "MyAPI for static Libs."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"sundl1988@163.com"=>"sundanlong@gmail.com"}
@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/iosmvn/MyAPILib.git', :tag => s.version.to_s }
 
   s.ios.deployment_target    = '8.0'
+  s.ios.frameworks = "UIKit", "SystemConfiguration", "MobileCoreServices"
   s.ios.vendored_frameworks   = 'ios/MyAPI.framework'
 end
